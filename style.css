@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --verdeescuro: #609966;
+    --cinzafundo: #EDF1D6;
+}
+
+.container{
+    background-color: var(--cinzafundo);
+    width: 600px;
+    height: 250px;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #EDF1D6;
+    background-color: var(--verdeescuro);
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
